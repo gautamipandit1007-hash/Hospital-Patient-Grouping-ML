@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ## 2. Get the data
 Download from the UCI page above and put **`diabetic_data.csv`** (and `IDS_mapping.csv`) in `data/raw/`.
 (`src/data_loader.py` also has an untested `download_dataset()` helper; if it fails, download manually.)
+Data Link - https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
 
 ## 3. Run
 ```bash
